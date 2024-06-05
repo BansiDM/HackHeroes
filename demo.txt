@@ -24,7 +24,7 @@ int main()
     cout << "Enter stop time." << endl;
     cout << "Enter hours, minutes and seconds respectively: ";
     cin >> t2.hours >> t2.minutes >> t2.seconds;
-
+    cout << "new line added" << endl;
     computeTimeDifference(t1, t2, &difference);
 
     cout << endl << "TIME DIFFERENCE: " << t1.hours << ":" << t1.minutes << ":" << t1.seconds;
