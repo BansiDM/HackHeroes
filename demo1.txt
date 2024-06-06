@@ -1,1 +1,3 @@
-demo1111111
+void add(short x, short y){
+   long a = x+y;
+}
