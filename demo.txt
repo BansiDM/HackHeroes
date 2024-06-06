@@ -13,6 +13,10 @@ struct TIME
 
 void computeTimeDifference(struct TIME, struct TIME, struct TIME *);
 
+void add(short x, short y){
+   long a = x+y;
+}
+
 int main()
 {
     struct TIME t1, t2, difference;
