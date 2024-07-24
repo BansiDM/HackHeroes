@@ -1,6 +1,6 @@
 // Computes time difference of two time period
 // Time periods are entered by the user
-
+//new comment
 #include <iostream>
 using namespace std;
 
@@ -24,6 +24,7 @@ int main()
     cout << "Enter stop time." << endl;
     cout << "Enter hours, minutes and seconds respectively: ";
     cin >> t2.hours >> t2.minutes >> t2.seconds;
+    cout << "time over" << endl;
 
     computeTimeDifference(t1, t2, &difference);
 
